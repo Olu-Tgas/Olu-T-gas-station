@@ -1,0 +1,189 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+section h2 {
+    color: #007bff; /* Blue color for headings */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Hero Section Specific Styles */
+.hero {
+    background-color: #e2f0ff; /* Light blue background */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.hero h2 {
+    color: #0056b3; /* Darker blue */
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #28a745; /* Green button */
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Info Section Styles */
+.info-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+/* Location Section specific styles */
+.location-section {
+    text-align: center;
+}
+/* In style.css */
+.service-list, .hours-list {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.service-list li, .hours-list li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 5px solid #007bff; /* A blue line on the left */
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.service-list li .icon {
+    margin-right: 10px;
+    font-size: 1.2em; /* Make icons slightly larger */
+    /* --- Photo Gallery Styles --- */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+    gap: 15px; /* Space between images */
+    padding: 20px;
+    max-width: 900px; /* Limit grid width */
+    margin: 20px auto; /* Center the grid */
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.gallery-image {
+    width: 100%; /* Images fill their grid area */
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Crop images to fit without distortion */
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.03); /* Slightly enlarge on hover/tap */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+}
+
